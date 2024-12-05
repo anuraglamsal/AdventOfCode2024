@@ -15,7 +15,7 @@ int main(){
 	ifstream file_2("input_2");
 	string line;
 	vector<vector<int>>updates;
-	while(getline(file_2, line)){
+	while(file_2 >> line){
 		vector<int>pages;
 		stringstream ss(line);
 		int page;
