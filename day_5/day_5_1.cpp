@@ -5,9 +5,9 @@ using namespace std;
 int main(){
 	ifstream file_1("input_1");
 	int page_1, page_2;
-	char pipe;
+	char _pipe;
 	map<int, set<int>>ordering;
-	while(file_1 >> page_1 >> pipe >> page_2){
+	while(file_1 >> page_1 >> _pipe >> page_2){
 		ordering[page_1].insert(page_2);
 	}
 	file_1.close();
