@@ -25,7 +25,7 @@ int main(){
 	ifstream file("input");
 	string line;
 	vector<vector<int>>nums;
-	vector<long>tests;
+	vector<long long>tests;
 	// use getline to read a whole line. The stream reading technique
 	// also considers whitespace as a stop point, but getline only 
 	// considers new line as stop point. 

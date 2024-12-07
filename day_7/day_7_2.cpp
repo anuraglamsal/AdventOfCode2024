@@ -38,7 +38,7 @@ int main(){
 	ifstream file("input");
 	string line;
 	vector<vector<int>>nums;
-	vector<long>tests;
+	vector<long long>tests;
 	while(getline(file, line)){
 		long long test_val;
 		char colon;
