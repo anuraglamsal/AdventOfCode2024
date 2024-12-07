@@ -13,10 +13,8 @@ bool backtracking(vector<int>curr_nums, long long test, long long res, int curr_
 			}
 		}
 	}
-	else{
-		if(res != test){
-			return false;
-		}
+	else if(res != test){
+		return false;
 	}
 	return true;
 }
